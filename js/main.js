@@ -102,3 +102,7 @@
     
 })(jQuery);
 
+
+if (location.pathname.endsWith('.html')) {
+    history.replaceState({}, "", location.pathname.slice(0, -5));
+}
