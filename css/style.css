@@ -244,3 +244,12 @@
   width: 150px;
   height: 150px;
 }
+
+
+/* testing */
+@media (max-width: 992px) {
+  .hero-header {
+    background-position: 25% 10% !important;
+    background-size: auto;
+  }
+}
